@@ -14,6 +14,7 @@
         .then(data => {
             if (data.user && data.user.id) {
                 var userId = data.user.id;
+                console.log(userId);
                 // Create the event data
                 var eventData = {
                     event: {
@@ -25,6 +26,7 @@
                         }
                     }
                 };
+                console.log(eventData);
                 // Post the custom event to Zendesk
                 fetch(`/api/v2/users/${userId}/events`, {
                     method: 'POST',
