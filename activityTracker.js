@@ -7,7 +7,7 @@
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer YOUR_API_TOKEN' // Replace with your actual API token
+                'Authorization': 'Basic c3VqZmFsdXNzeUB6ZW5kZXNrLmNvbS90b2tlbjpSYzZESzJsQVRlQW1ac0YwTWV3OWF1MkxsTUdjYTBwQVdVSlB5azA1' // Replace with your actual API token
             }
         })
         .then(response => response.json())
